@@ -178,4 +178,20 @@ print(kontakty.values())
 
 zbior={1,2,3,4}
 
+"""
+f=open("text.txt", "r")
+print(f.read())
+f.close()
 
+f=open("text.txt", "a")
+f.write("ggg")
+f.close()
+
+f=open("text.txt", "a")
+f.write("ggg")
+f.close()
+
+f=open("text.txt", "a")
+print(f.read())
+
+"""
