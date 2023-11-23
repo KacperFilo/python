@@ -144,3 +144,5 @@ if x=="graniastoslup":
         d=Pp*H
         print(d)
   
+
+  
