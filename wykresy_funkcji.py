@@ -7,13 +7,11 @@ while True:
     if(q in funkcja): break
 
 if q=="prosta":
-   x=input("Podaj początek osi x")
-   x2=input("Podaj koniec osi x")
-   y=input("Podaj początek osi y")
-   y2=input("Podaj koniec osi y")
-   xpoints = np.array([x,x+{x/4},x2])
-   ypoints = np.array([y,y+{y/4},y2])
-   p.plot(ypoints, 'o--r')
+   #a=(input("Podaj punkty osi x"))
+   #b=(input("Podaj punkty osi y"))
+   #p.plot([input("Podaj punkty osi x")], [input("Podaj punkty osi y")], 'ro-')
+   p.plot([1,2,17,13], [10,5,6,19], 'ro-')
+   p.axis([0, 20, 0, 20])
    p.grid()
    p.show()
    
